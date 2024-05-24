@@ -1,3 +1,3 @@
 # SQL-data-cleaning
-Mở DBeaver lên
-Tạo table mới SQLite vơi tên là "club_members.db"
+Tạo file text có tên club_member_info
+Save as file mới tạo chọn All file
