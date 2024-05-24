@@ -29,5 +29,10 @@ Import file csv
 INSERT INTO club_member_info_clean
     SELECT *
     FROM club_member_info;
-
+    
+select * from club_member_info_clean 
 # clean du lieu
+
+-- Xóa khoảng trắng ở đầu và cuối của cột 'column_name' trong bảng 'table_name'
+UPDATE club_member_info_clean 
+SET full_name  = TRIM(full_name);
