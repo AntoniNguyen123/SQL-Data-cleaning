@@ -23,14 +23,17 @@ Import file csv
   	membership_date VARCHAR(50)
   );
 
-
-
 # import value vao bang clean
 INSERT INTO club_member_info_clean
     SELECT *
-    FROM club_member_info;
-    
-select * from club_member_info_clean 
+    FROM club_members;
+
+SELECT * From club_member_info_clean
+Limit 14
+
+![image](https://github.com/user-attachments/assets/5c6dfd80-05fc-4553-9f6e-019201d1424a)
+
+
 # clean du lieu
 
 -- Xóa khoảng trắng ở đầu và cuối của cột 'column_name' trong bảng 'table_name'
